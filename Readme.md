@@ -1,6 +1,6 @@
 # Reciept Scanner
 
-This project is about scanning restaurants and cafes receipt and extract some features
+This project is about scanning restaurants and cafes receipts and extract some features
 
 Features are :
 
@@ -12,7 +12,7 @@ Features are :
 
 * identify item's count
 
-after the extraction the result is a json array with this format
+after feature extraction an ocr turn the text in the image in to a json array with the following format:
 
 ```json
 {
@@ -30,6 +30,13 @@ after the extraction the result is a json array with this format
     ]
 }
 ```
+
+## problem solving steps:
+[] feature extraction
+[] detect language (english/persian)
+[] run persian or english ocr
+[] parse the raw data into the structured json array
+[] convert the project to a django web API
 
 ## structure
 
