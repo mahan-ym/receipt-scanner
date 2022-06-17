@@ -32,13 +32,13 @@ after feature extraction an ocr turn the text in the image in to a json array wi
 ```
 
 ## problem solving steps:
-[] feature extraction
-[] detect language (english/persian)
-[] run persian or english ocr
-[] parse the raw data into the structured json array
-[] convert the project to a django web API
+- [ ] feature extraction
+- [ ] detect language (english/persian)
+- [ ] run persian or english ocr
+- [ ] parse the raw data into the structured json array
+- [ ] convert the project to a django web API
 
 ## structure
 
 - dataset : includes different receipts to train data
-- notebook : a jupyter notebook to train the model
+- notebook : a jupyter notebook implementation of the project
