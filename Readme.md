@@ -1,5 +1,7 @@
 # Reciept Scanner
 
+🚧 WIP: this project is still in progress
+
 This project is about scanning restaurants and cafes receipts and extract some features
 
 Features are :
